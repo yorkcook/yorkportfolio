@@ -1,4 +1,3 @@
 # yorkportfolio
 
-York Cook's portofilio repo
-!!
+York Cook's Portfolio Code Repo
