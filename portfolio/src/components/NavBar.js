@@ -16,9 +16,11 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Link to="/portfolio">
-                <Button variant="outline-success">Portfolio</Button>
-              </Link>
+              <Nav.Link>
+                <Link to="/portfolio">
+                  <Button variant="outline-success">Portfolio</Button>
+                </Link>
+              </Nav.Link>
               <Nav.Link href="/courses">
                 <Button variant="outline-success">Courses</Button>
               </Nav.Link>
