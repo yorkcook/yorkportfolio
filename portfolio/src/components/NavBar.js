@@ -3,6 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 
+import { Link } from "react-router-dom";
+
 // import "./NavBar.css";
 
 const NavBar = () => {
@@ -14,9 +16,9 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#/portfolio">
+              <Link to="/portfolio">
                 <Button variant="outline-success">Portfolio</Button>
-              </Nav.Link>
+              </Link>
               <Nav.Link href="/courses">
                 <Button variant="outline-success">Courses</Button>
               </Nav.Link>

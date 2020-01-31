@@ -11,7 +11,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div>
+    <div class="mx-auto" style={{ margin: "150px" }}>
       {/* <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/home">Active</Nav.Link>
