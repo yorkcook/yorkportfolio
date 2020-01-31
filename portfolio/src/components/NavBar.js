@@ -14,11 +14,9 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              {/* <Nav.Link href="https://festive-banach-4b3dbb.netlify.com/portfolio"> */}
-              <a href="/portfolio">
+              <Nav.Link href="/portfolio">
                 <Button variant="outline-success">Portfolio</Button>
-              </a>
-              {/* </Nav.Link> */}
+              </Nav.Link>
               <Nav.Link href="/courses">
                 <Button variant="outline-success">Courses</Button>
               </Nav.Link>
