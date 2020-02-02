@@ -30,7 +30,11 @@ const Portfolio = () => {
                   href="https://lambda-labby.netlify.com/"
                   target="_blank"
                 >
-                  <Card.Title>Labby</Card.Title>
+                  <Card.Title class="text-success font-weight-bold">
+                    <h3>
+                      <u>Labby</u>
+                    </h3>
+                  </Card.Title>
                 </Nav.Link>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural
@@ -40,7 +44,7 @@ const Portfolio = () => {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="primary"
+                  variant="outline-success"
                   href="https://github.com/yorkcook/be-recipe-vault"
                   target="_blank"
                 >
@@ -63,7 +67,11 @@ const Portfolio = () => {
                   href="https://recipe-vault.netlify.com/"
                   target="_blank"
                 >
-                  <Card.Title>Recipe Vault</Card.Title>
+                  <Card.Title class="text-success font-weight-bold">
+                    <h3>
+                      <u>Recipe Vault</u>
+                    </h3>
+                  </Card.Title>
                 </Nav.Link>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural
@@ -73,7 +81,7 @@ const Portfolio = () => {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="primary"
+                  variant="outline-success"
                   href="https://github.com/yorkcook/be-recipe-vault"
                   target="_blank"
                 >
@@ -99,7 +107,11 @@ const Portfolio = () => {
                   href="https://we-serve-soup.netlify.com/"
                   target="_blank"
                 >
-                  <Card.Title>We Serve Soup</Card.Title>
+                  <Card.Title class="text-success font-weight-bold">
+                    <h3>
+                      <u>We Serve Soup</u>
+                    </h3>
+                  </Card.Title>
                 </Nav.Link>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural
@@ -109,7 +121,7 @@ const Portfolio = () => {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="primary"
+                  variant="outline-success"
                   href="https://github.com/yorkcook/FE"
                   target="_blank"
                 >
@@ -133,7 +145,11 @@ const Portfolio = () => {
                   href="https://watermyplants-html.netlify.com/"
                   target="_blank"
                 >
-                  <Card.Title>Water My Plants</Card.Title>
+                  <Card.Title class="text-success font-weight-bold">
+                    <h3>
+                      <u>Water My Plants</u>
+                    </h3>
+                  </Card.Title>
                 </Nav.Link>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural
@@ -143,7 +159,7 @@ const Portfolio = () => {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="primary"
+                  variant="outline-success"
                   href="https://github.com/yorkcook/WEB-UI-III"
                   target="_blank"
                 >
