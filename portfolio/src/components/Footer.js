@@ -25,7 +25,10 @@ const Footer = () => {
                   </a>
                 </Nav.Link>
                 <Nav.Link href="/portfolio">
-                  <a style={{ color: "#28a745" }} href="" target="_blank">
+                  <a
+                    style={{ color: "#28a745" }}
+                    href="mailto:yorkcook13@gmail.com"
+                  >
                     <MdEmail size="25px" />
                   </a>
                 </Nav.Link>

@@ -2,28 +2,37 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
-import Picture from "./image.png";
+import York from "./york.png";
 
 const Home = () => {
   return (
     <div>
-      <div class="m-5">
+      <div class="m-4">
         <img
-          src={Picture}
-          class="rounded-circle w-50 h-50"
+          src={York}
+          class="rounded-circle w-25 h-25"
           alt="Responsive image"
         ></img>
       </div>
-      <div class="m-5">
-        <Jumbotron fluid>
-          <h1>Hello, world!</h1>
+      <div class="m-3">
+        <Jumbotron fluid style={{ backgroundColor: "white" }}>
+          <h1 class="mb-3">Hello, world!</h1>
           <p>
             This is a simple hero unit, a simple jumbotron-style component for
             calling extra attention to featured content or information.
           </p>{" "}
           <p>
-            <Button variant="primary">Learn more</Button>
-          </p>
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information.
+          </p>{" "}
+          <p>
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information.
+          </p>{" "}
+          <p>
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information.
+          </p>{" "}
         </Jumbotron>
       </div>
     </div>

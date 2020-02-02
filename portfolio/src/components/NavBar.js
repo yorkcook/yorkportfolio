@@ -8,12 +8,18 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div>
-      <a class="navbar-brand" href="/">
+      {/* <a class="navbar-brand" href="/">
         <h1 class="display-1 text-success">
           <u>York Cook</u>
         </h1>
-      </a>
+      </a> */}
       <div class="d-flex nav justify-content-around">
+        <a class="navbar-brand" href="/">
+          <h1 class="display-1 text-success">
+            {/* <u>York Cook</u> */}
+            York Cook
+          </h1>
+        </a>
         <Navbar expand="lg" sticky="top">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
