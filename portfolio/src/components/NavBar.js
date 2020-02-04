@@ -13,7 +13,10 @@ const NavBar = () => {
           <u>York Cook</u>
         </h1>
       </a> */}
-      <div class="d-flex nav justify-content-around">
+      <div
+        class="d-flex nav justify-content-around"
+        style={{ fontFamily: "arial" }}
+      >
         <a class="navbar-brand" href="/">
           <h1 class="display-1 text-success">
             {/* <u>York Cook</u> */}
