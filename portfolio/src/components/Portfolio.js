@@ -16,10 +16,10 @@ const Portfolio = () => {
     <div>
       <div
         class="container"
-        style={{ marginBottom: "25px", marginTop: "50px" }}
+        style={{ marginBottom: "25px", marginTop: "50px", fontFamily: "arial" }}
       >
         <div class="row mt-5">
-          <div class="col-sm">
+          <div class="col-md">
             {" "}
             <Card>
               <div class="card">

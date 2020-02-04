@@ -15,11 +15,14 @@ const Home = () => {
         ></img>
       </div>
       <div class="m-3">
-        <Jumbotron fluid style={{ backgroundColor: "white" }}>
-          <h1 class="mb-3">Hello, world!</h1>
+        <Jumbotron
+          fluid
+          style={{ backgroundColor: "white", fontFamily: "arial" }}
+        >
+          <h1 class="mb-3">Hello!</h1>
           <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
+            I'm York and I am a Full Stack Software Engineer who can write
+            applications in JavaScript, React and NodeJS.
           </p>{" "}
           <p>
             This is a simple hero unit, a simple jumbotron-style component for
