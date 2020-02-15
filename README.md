@@ -6,4 +6,4 @@ Contains courses taken, portfolio pieces, etc
 
 About page, contact page
 
-My first project Built with Bootstrap!
+My first project Built with Bootstrap!!
