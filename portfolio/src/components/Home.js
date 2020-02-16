@@ -21,21 +21,20 @@ const Home = () => {
         >
           <h1 class="mb-3">Hello!</h1>
           <p>
-            I'm York and I am a Full Stack Software Engineer who can write
-            applications in JavaScript, React and NodeJS.
+            My name is York and I'm a Full Stack Software Engineer who can write
+            applications in JavaScript, React and NodeJS. When not in front of a
+            keyboard, you can find me out and about advocating for
+            cryptocurrencies, researching regenerative farming, playing chess,
+            or any number of other wide ranging activities!
           </p>{" "}
-          <p>
+          {/* <p>
             This is a simple hero unit, a simple jumbotron-style component for
             calling extra attention to featured content or information.
           </p>{" "}
           <p>
             This is a simple hero unit, a simple jumbotron-style component for
             calling extra attention to featured content or information.
-          </p>{" "}
-          <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
-          </p>{" "}
+          </p>{" "} */}
         </Jumbotron>
       </div>
     </div>
