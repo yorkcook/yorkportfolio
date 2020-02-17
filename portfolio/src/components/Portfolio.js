@@ -5,7 +5,6 @@ import CardDeck from "react-bootstrap/CardDeck";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 
-import Picture from "./image.png";
 import Water from "./water.png";
 import Labby from "./labby.png";
 import Recipe from "./recipe.png";
