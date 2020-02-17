@@ -8,7 +8,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
-// import Courses from "./components/Courses";
+import Courses from "./components/Courses";
 // import Contact from "./components/Contact";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
 
       <Route exact path="/" component={Home} />
       <Route exact path="/portfolio" component={Portfolio} />
-      {/* <Route exact path="/courses" component={Courses} /> */}
+      <Route exact path="/courses" component={Courses} />
       {/* <Route exact path="/contact" component={Contact} /> */}
 
       <Footer />
