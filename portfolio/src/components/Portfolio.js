@@ -1,7 +1,6 @@
 import React from "react";
 
 import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 
@@ -22,11 +21,11 @@ const Portfolio = () => {
             {" "}
             <Card style={{ width: "25rem" }}>
               <div class="card">
-                <a href="https://lambda-labby.netlify.com/" target="_blank">
+                <a href="https://lambda-labby.netlify.com/" target="_blank" rel="noopener noreferrer">
                   <img
                     src={Labby}
                     class="img-fluid"
-                    alt="Responsive image"
+                    alt="labby"
                     style={{ width: "450px", height: "400px" }}
                   ></img>
                 </a>
@@ -63,11 +62,11 @@ const Portfolio = () => {
           <div class="col">
             <Card style={{ width: "25rem" }}>
               <div class="card">
-                <a href="https://recipe-vault.netlify.com/" target="_blank">
+                <a href="https://recipe-vault.netlify.com/" target="_blank" rel="noopener noreferrer">
                   <img
                     src={Recipe}
                     class="img-fluid"
-                    alt="Responsive image"
+                    alt="recipe"
                     style={{ width: "450px", height: "400px" }}
                   ></img>
                 </a>
@@ -106,11 +105,11 @@ const Portfolio = () => {
             {" "}
             <Card style={{ width: "25rem" }}>
               <div class="card">
-                <a href="https://we-serve-soup.netlify.com/" target="_blank">
+                <a href="https://we-serve-soup.netlify.com/" target="_blank" rel="noopener noreferrer">
                   <img
                     src={Soup}
                     class="img-fluid"
-                    alt="Responsive image"
+                    alt="soup"
                     style={{ width: "450px", height: "400px" }}
                   ></img>
                 </a>
@@ -150,11 +149,12 @@ const Portfolio = () => {
                 <a
                   href="https://watermyplants-html.netlify.com/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src={Water}
                     class="img-fluid"
-                    alt="Responsive image"
+                    alt="water"
                     style={{ width: "450px", height: "400px" }}
                   ></img>
                 </a>

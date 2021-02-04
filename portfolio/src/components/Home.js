@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
 import York from "./york.png";
@@ -11,7 +10,7 @@ const Home = () => {
         <img
           src={York}
           class="rounded-circle w-25 h-25"
-          alt="Responsive image"
+          alt="york"
         ></img>
       </div>
       <div class="m-3">
