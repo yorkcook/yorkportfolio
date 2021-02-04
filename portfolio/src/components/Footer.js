@@ -20,6 +20,7 @@ const Footer = () => {
                     style={{ color: "#28a745" }}
                     href="https://www.linkedin.com/in/yorkcook/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FaLinkedin size="25px" />
                   </a>
@@ -37,6 +38,7 @@ const Footer = () => {
                     style={{ color: "#28a745" }}
                     href="https://github.com/yorkcook"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FaGithub size="25px" />
                   </a>
@@ -46,6 +48,7 @@ const Footer = () => {
                     style={{ color: "#28a745" }}
                     href="https://twitter.com/rockybalbitcoin"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FaTwitter size="25px" />
                   </a>
