@@ -19,7 +19,6 @@ const NavBar = () => {
       >
         <a class="navbar-brand" href="/">
           <h1 class="display-1 text-success">
-            {/* <u>York Cook</u> */}
             York Cook
           </h1>
         </a>
